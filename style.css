@@ -7,24 +7,24 @@
 .skills{
     text-align: auto;
     -moz-text-decoration-color:darkgrey;
-    text-decoration-color:darkgrey;
+    text-decoration-color:rgb(75, 25, 25);
 }
 footer{
     text-align: center;
     -moz-text-decoration-color:darkgrey;
-    text-decoration-color:darkgrey;
+    text-decoration-color:rgb(83, 32, 32);
 
 }
 
 h1{
     text-align: center;
     -moz-text-decoration-color:darkgrey;
-    text-decoration-color:darkgrey;
+    text-decoration-color:rgb(68, 28, 28);
 }
 h2{
     text-align: center;
     -moz-text-decoration-color:darkgrey;
-    text-decoration-color:darkgrey;
+    text-decoration-color:rgb(105, 43, 43);
 }
 body{
     background-color:rgb(65, 42, 42);
