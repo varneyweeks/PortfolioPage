@@ -1,22 +1,26 @@
 .paragraph{
     font-style: italic;
     text-align: left;
+    color:darkgrey
 
 }
 .skills{
     text-align: auto;
-
+    color:darkgrey
 }
 footer{
     text-align: center;
+    color:darkgrey
 
 }
 
 h1{
     text-align: center;
+    color:darkgrey
 }
 h2{
     text-align: center;
+    color:darkgrey
 }
 body{
     background-color:rgb(65, 42, 42);
