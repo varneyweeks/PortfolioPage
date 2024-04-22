@@ -19,7 +19,7 @@ h2{
     text-align: center;
 }
 body{
-    background-color:black;
+    background-color:rgb(65, 42, 42);
     background-image:image("R(1).jpg)") ;
     img{
     height: auto;
