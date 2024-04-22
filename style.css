@@ -1,26 +1,30 @@
 .paragraph{
     font-style: italic;
     text-align: left;
-    color:darkgrey
-
+    -moz-text-decoration-color:darkgrey;
+    text-decoration-color:darkgrey;
 }
 .skills{
     text-align: auto;
-    color:darkgrey
+    -moz-text-decoration-color:darkgrey;
+    text-decoration-color:darkgrey;
 }
 footer{
     text-align: center;
-    color:darkgrey
+    -moz-text-decoration-color:darkgrey;
+    text-decoration-color:darkgrey;
 
 }
 
 h1{
     text-align: center;
-    color:darkgrey
+    -moz-text-decoration-color:darkgrey;
+    text-decoration-color:darkgrey;
 }
 h2{
     text-align: center;
-    color:darkgrey
+    -moz-text-decoration-color:darkgrey;
+    text-decoration-color:darkgrey;
 }
 body{
     background-color:rgb(65, 42, 42);
