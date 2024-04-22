@@ -11,10 +11,7 @@ footer{
     text-align: center;
 
 }
-img{
-    height: auto;
-    size: auto;
-}
+
 h1{
     text-align: center;
 }
@@ -23,5 +20,9 @@ h2{
 }
 body{
     background-color:black;
-    background-image: url("R(1).jpg)") ;
+    background-image:image("R(1).jpg)") ;
+    img{
+    height: auto;
+    size: auto;
+}
 }
