@@ -1,0 +1,26 @@
+.paragraph{
+    font-style: italic;
+    text-align: center;
+
+}
+.skills{
+    text-align: auto;
+
+}
+footer{
+    text-align: center;
+
+}
+img{
+    height: auto;
+    size: auto;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+body{
+    background-color: beige;
+}
