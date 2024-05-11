@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: olive;
+  }
+  
+  .profile {
+    background-color: olivedrab;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 16px;
+    width: 300px;
+    margin: auto;
+
+  }
+  .profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .stat {
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .info h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .info p {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+    h1 {
+      font-size: 20px;
+    }
+    .balance,
+    .category {
+      flex-direction: column; /* Stack items vertically */
+    }
+    .expenses {
+      font-size: 14px;
+    }
+  }

@@ -1,0 +1,72 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+    background-color: olive;
+}
+
+.container {
+	max-width: 600px;
+	margin: 2rem auto;
+	padding: 2rem;
+	background-color: olivedrab;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	margin-top: 0;
+	text-align: center;
+}
+
+.form-group {
+	margin-bottom: 1rem;
+}
+
+label {
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+	width: 100%;
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type="date"] {
+	padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+button[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #45a049;
+}
+@media (max-width: 768px) {
+	.container {
+	  width: 90%;
+	}
+	h1 {
+	  font-size: 20px;
+	}
+	.balance,
+	.category {
+	  flex-direction: column; /* Stack items vertically */
+	}
+	.expenses {
+	  font-size: 14px;
+	}
+  }

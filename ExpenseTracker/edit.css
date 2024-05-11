@@ -1,0 +1,45 @@
+body{
+    background-color: olive;
+}
+
+table {
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    width: 100%;
+    border-collapse: collapse;
+    text-decoration: lightgreen;
+
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    text-decoration: lightgreen;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    text-decoration: lightgreen;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+    text-decoration: lightgreen;
+  }
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+    h1 {
+      font-size: 20px;
+    }
+    .balance,
+    .category {
+      flex-direction: column; /* Stack items vertically */
+    }
+    .expenses {
+      font-size: 14px;
+    }
+  }
